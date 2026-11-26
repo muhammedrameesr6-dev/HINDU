@@ -47,7 +47,7 @@ export function FamiliesSection() {
                 Mr. Sreenivasan <span>&amp;</span> Mrs. Sheela Sreenivasan
               </p>
               <p className="family-story__place">
-                Thanik(k)al House, Kallurima, Mannam
+                Thanikkal House, Kallurma, Nannamucku
               </p>
               <p className="family-story__place">
                 <a
