@@ -11,6 +11,13 @@ const ARRIVAL_OPTIONS = [
     href: 'https://www.google.com/maps/search/?api=1&query=Guruvayoor+Temple+Kerala',
   },
   {
+    mode: "Bride's residence",
+    title: 'Variyath Valappil',
+    note: 'Muthoor, Vattamkulam — Open in Google Maps',
+    icon: MapPin,
+    href: 'https://maps.app.goo.gl/WfTgDLstt1iDCiyL7?g_st=ac',
+  },
+  {
     mode: 'By train',
     title: 'Kuttippuram / Thrissur Junction',
     note: 'Rail access to Changaramkulam & Guruvayoor',

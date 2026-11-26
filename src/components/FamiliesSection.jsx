@@ -1,4 +1,5 @@
 import React from 'react';
+import { MapPin } from 'lucide-react';
 import { LotusBotanicalMark } from './LotusIcon';
 
 export function FamiliesSection() {
@@ -92,6 +93,17 @@ export function FamiliesSection() {
                   className="text-[#efc16a] hover:underline underline-offset-4"
                 >
                   +91 80860 86424
+                </a>
+              </p>
+              <p className="family-story__place !mt-3">
+                <a
+                  href="https://maps.app.goo.gl/WfTgDLstt1iDCiyL7?g_st=ac"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-[#efc16a]/60 bg-[#3a0710]/70 text-[#fbe8c6] text-[11px] tracking-[0.12em] uppercase hover:bg-[#5c1520] transition-colors"
+                >
+                  <MapPin size={12} className="text-[#efc16a]" aria-hidden="true" />
+                  <span>Location</span>
                 </a>
               </p>
             </div>
