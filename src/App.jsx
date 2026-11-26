@@ -6,10 +6,7 @@ import { FamiliesSection } from './components/FamiliesSection';
 import { GratefulHeartsSection } from './components/GratefulHeartsSection';
 import { VenueSection } from './components/VenueSection';
 import { SaveTheDateSection } from './components/SaveTheDateSection';
-import { DressCodeSection } from './components/DressCodeSection';
 import { TravelGuideSection } from './components/TravelGuideSection';
-import { GallerySection } from './components/GallerySection';
-import { RsvpSection } from './components/RsvpSection';
 import { ThankYouFooter } from './components/ThankYouFooter';
 
 function isDirectInvitationMode() {
@@ -178,10 +175,7 @@ export default function App() {
         <GratefulHeartsSection />
         <VenueSection />
         <SaveTheDateSection />
-        <DressCodeSection />
         <TravelGuideSection />
-        <GallerySection />
-        <RsvpSection />
         <ThankYouFooter />
       </main>
     </div>

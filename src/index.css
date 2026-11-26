@@ -2,5 +2,54 @@
 @import "./styles/invitation.css";
 
 .invitation-shell .wedding-details-v3 .celebration-invite__group--wedding {
+  height: auto !important;
+  min-height: calc(100svh + 110px) !important;
   padding-bottom: 155px !important;
+}
+
+.invitation-shell .wedding-details-v3 .wedding-letter,
+.invitation-shell .wedding-details-v3 .wedding-letter__eyebrow,
+.invitation-shell .wedding-details-v3 .wedding-letter__title,
+.invitation-shell .wedding-details-v3 .wedding-letter__welcome,
+.invitation-shell .wedding-details-v3 .wedding-letter__weekday,
+.invitation-shell .wedding-details-v3 .wedding-letter__number,
+.invitation-shell .wedding-details-v3 .wedding-letter__month-year,
+.invitation-shell .wedding-details-v3 .wedding-letter__time,
+.invitation-shell .wedding-details-v3 .wedding-letter__time > span,
+.invitation-shell .wedding-details-v3 .wedding-letter__venue-name,
+.invitation-shell .wedding-details-v3 .wedding-letter__address {
+  color: #310102 !important;
+  -webkit-text-fill-color: #310102 !important;
+}
+
+.invitation-shell .wedding-details-v3 .wedding-letter__month-year {
+  border-left-color: rgba(49, 1, 2, 0.45) !important;
+}
+
+.invitation-shell .wedding-details-v3 .wedding-letter__directions {
+  background: #310102 !important;
+  border-color: #310102 !important;
+}
+
+.invitation-shell .wedding-details-v3 .wedding-letter__directions:hover {
+  background: #4a0406 !important;
+}
+
+.invitation-shell .std {
+  padding-bottom: 84px !important;
+}
+
+.invitation-shell .std-wrap + .journey-guide--minimal {
+  margin-top: -60px;
+  padding-top: 100px;
+}
+
+.invitation-shell .journey-guide--minimal:has(+ .thanks--temple) {
+  padding-bottom: 110px;
+}
+
+.invitation-shell .journey-guide + .thanks--temple {
+  margin-top: -40px;
+  -webkit-mask-image: linear-gradient(#0000 0, #000 40px);
+  mask-image: linear-gradient(#0000 0, #000 40px);
 }
