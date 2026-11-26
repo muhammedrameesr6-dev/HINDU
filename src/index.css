@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "./styles/invitation.css";
+
+.invitation-shell .wedding-details-v3 .celebration-invite__group--wedding {
+  padding-bottom: 155px !important;
+}
