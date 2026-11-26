@@ -5,34 +5,74 @@
   height: auto !important;
   min-height: calc(100svh + 110px) !important;
   padding-bottom: 155px !important;
+  background-color: #310102 !important;
+  background-image:
+    radial-gradient(65% 50% at 50% 42%, rgba(49, 1, 2, 0.72), rgba(49, 1, 2, 0.92) 78%),
+    linear-gradient(180deg, rgba(49, 1, 2, 0.84) 0%, rgba(49, 1, 2, 0.72) 45%, rgba(49, 1, 2, 0.96) 100%),
+    url(/details-courtyard-mobile.webp) !important;
+  background-position: center, center, top !important;
+  background-size: auto, auto, 100% 100% !important;
+  background-repeat: no-repeat !important;
 }
 
-.invitation-shell .wedding-details-v3 .wedding-letter,
-.invitation-shell .wedding-details-v3 .wedding-letter__eyebrow,
+@media (width >= 900px) {
+  .invitation-shell .shared-family-background .wedding-details-v3 .celebration-invite__group--wedding {
+    background-color: #310102 !important;
+    background-image:
+      radial-gradient(55% 50% at 50% 42%, rgba(49, 1, 2, 0.72), rgba(49, 1, 2, 0.92) 78%),
+      linear-gradient(180deg, rgba(49, 1, 2, 0.84) 0%, rgba(49, 1, 2, 0.72) 45%, rgba(49, 1, 2, 0.96) 100%),
+      url(/details-courtyard-desktop.webp) !important;
+    background-position: center, center, center !important;
+    background-size: auto, auto, cover !important;
+  }
+}
+
+.invitation-shell .wedding-details-v3 .wedding-letter {
+  color: #fbe8c6 !important;
+  text-shadow: 0 1px 6px rgba(18, 0, 1, 0.75) !important;
+}
+
+.invitation-shell .wedding-details-v3 .wedding-letter__eyebrow {
+  color: #e9bd6b !important;
+  -webkit-text-fill-color: #e9bd6b !important;
+}
+
 .invitation-shell .wedding-details-v3 .wedding-letter__title,
+.invitation-shell .wedding-details-v3 .wedding-letter__number,
+.invitation-shell .wedding-details-v3 .wedding-letter__venue-name {
+  color: #fbe8c6 !important;
+  -webkit-text-fill-color: #fbe8c6 !important;
+}
+
 .invitation-shell .wedding-details-v3 .wedding-letter__welcome,
 .invitation-shell .wedding-details-v3 .wedding-letter__weekday,
-.invitation-shell .wedding-details-v3 .wedding-letter__number,
 .invitation-shell .wedding-details-v3 .wedding-letter__month-year,
 .invitation-shell .wedding-details-v3 .wedding-letter__time,
 .invitation-shell .wedding-details-v3 .wedding-letter__time > span,
-.invitation-shell .wedding-details-v3 .wedding-letter__venue-name,
 .invitation-shell .wedding-details-v3 .wedding-letter__address {
-  color: #310102 !important;
-  -webkit-text-fill-color: #310102 !important;
+  color: #f4dcbf !important;
+  -webkit-text-fill-color: #f4dcbf !important;
 }
 
 .invitation-shell .wedding-details-v3 .wedding-letter__month-year {
-  border-left-color: rgba(49, 1, 2, 0.45) !important;
+  border-left-color: rgba(233, 189, 107, 0.55) !important;
 }
 
 .invitation-shell .wedding-details-v3 .wedding-letter__directions {
-  background: #310102 !important;
-  border-color: #310102 !important;
+  color: #310102 !important;
+  -webkit-text-fill-color: #310102 !important;
+  background: linear-gradient(135deg, #f6d995, #d9a64e) !important;
+  border: 1px solid #f3d08a !important;
+  box-shadow: 0 10px 22px rgba(18, 0, 1, 0.45) !important;
+  text-shadow: none !important;
+}
+
+.invitation-shell .wedding-details-v3 .wedding-letter__directions svg {
+  color: #310102 !important;
 }
 
 .invitation-shell .wedding-details-v3 .wedding-letter__directions:hover {
-  background: #4a0406 !important;
+  background: linear-gradient(135deg, #fbe4ab, #e2b25b) !important;
 }
 
 .invitation-shell .std {

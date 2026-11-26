@@ -45,6 +45,9 @@ export function VenueSection() {
                     <p className="wedding-letter__eyebrow">Reception</p>
                     <p className="wedding-letter__venue-name !text-[25px]">FLG Auditorium</p>
                     <p className="wedding-letter__address">Changaramkulam</p>
+                    <div className="wedding-letter__time !mt-1">
+                      5:00 PM – 9:00 PM
+                    </div>
 
                     <div className="mt-3 mb-1 w-full max-w-[260px] mx-auto overflow-hidden rounded-[10px] border border-[#b98a45]/75 shadow-[0_10px_24px_rgba(72,19,33,0.22)]">
                       <img

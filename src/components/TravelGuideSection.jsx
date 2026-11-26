@@ -4,7 +4,7 @@ import { LotusDividerIcon } from './LotusIcon';
 
 const ARRIVAL_OPTIONS = [
   {
-    mode: 'Thalikettu · 8:00 AM – 8:30 AM',
+    mode: 'Thalikettu',
     title: 'Guruvayoor',
     note: 'Morning wedding ceremony venue',
     icon: MapPin,
@@ -54,7 +54,7 @@ export function TravelGuideSection() {
             <MapPin size={22} />
           </span>
           <span>
-            <small>Reception venue</small>
+            <small>Reception · 5:00 PM – 9:00 PM</small>
             <strong>FLG Auditorium</strong>
             <span>Changaramkulam</span>
           </span>

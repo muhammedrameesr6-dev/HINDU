@@ -6,7 +6,7 @@ const EMPTY_LEADING_DAYS = Array.from({ length: 5 }, (_, i) => i);
 const DAYS = Array.from({ length: 31 }, (_, i) => i + 1);
 
 const GOOGLE_CALENDAR_URL =
-  'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Shibin%20%26%20Archana%27s%20Wedding&dates=20270110T080000/20270110T150000&location=FLG%20Auditorium%2C%20Changaramkulam&details=Thalikettu%20at%20Guruvayoor%20(8%3A00%20AM%20%E2%80%93%208%3A30%20AM)%20followed%20by%20Reception%20at%20FLG%20Auditorium%2C%20Changaramkulam.';
+  'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Shibin%20%26%20Archana%27s%20Wedding&dates=20270110T170000/20270110T210000&location=FLG%20Auditorium%2C%20Changaramkulam&details=Thalikettu%20at%20Guruvayoor%20followed%20by%20Reception%20at%20FLG%20Auditorium%2C%20Changaramkulam%20(5%3A00%20PM%20%E2%80%93%209%3A00%20PM).';
 
 export function SaveTheDateSection() {
   return (
