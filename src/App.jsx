@@ -153,7 +153,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#FAF6F0] text-[#1A100B]">
-      <audio ref={audioRef} src="/ghar-more-pardesiya.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="/wedding-song.m4a" loop preload="auto" />
 
       {!gateDismissed && (
         <GateIntro
